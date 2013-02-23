@@ -1,0 +1,6 @@
+namespace :xml do
+  desc "read xml elements"
+  task :read_xml_elements do
+
+  end
+end
