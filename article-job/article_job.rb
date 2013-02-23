@@ -20,10 +20,9 @@ end
 
 $found = {}
 
-def scrap_article_data(article_xml, db)
+def scrap_article_data(article_xml, col)
   article = {}
   article[:legacy_id] = article_xml["id"]
-
   article_xml.children.each do |c|
     case c.name
       when "name"
@@ -37,7 +36,7 @@ def scrap_article_data(article_xml, db)
       when "fulltext"
         next
       when "contributor"
-        article[:contributors] || []
+        article[:contributors] ||= []
         contributor = {}
         contributor[:role] = c["role"] if c["role"]
         contributor[:title] = c["title"] if c["title"]
@@ -45,19 +44,34 @@ def scrap_article_data(article_xml, db)
         firstname =  c.css("[@key='person.firrstname']").first
         contributor[:surname] = surname["value"] if surname
         contributor[:firstname] = firstname["value"] if firstname
+        article[:contributors].push contributor
       when "hierarchy"
         element = c.css("element-ref").first
         article[:parent] = element["ref"]
+      when "note"
+        article[:notes] ||= []
+        article[:notes].push({lang: c["lang"], text: c.text})
+      when "description"
+        article[:descriptions] ||= []
+        article[:descriptions].push({lang: c["lang"], text: c.text})
+      when "contents"
+        next
       when "attribute"
         case c["key"]
           when "bibliographical.description"
-            article[:description] = c["value"]
+            article[:bibliographical_description] = c["value"]
           when "mhp.typ.form"
             article["mht_typ_form"] = c["value"]
           when "mhp.typ.rodz"
             article["mht_typ_rodz"] = c["value"]
           when "title.nonexplicit"
-            puts c
+            article[:title_nonexplicit] = c["value"]
+          when "mhp.reference"
+            article[:mph_reference] = c["value"]
+          when "baztech.autor.adress"
+            next
+          when "conference.title"
+            next
           else
             $found[c.name + " " + c["key"]] ||= 0
             $found[c.name + " " + c["key"]] += 1
@@ -67,6 +81,7 @@ def scrap_article_data(article_xml, db)
         $found[c.name] += 1
     end
   end
+  col.insert article
 end
 
 Dir["./full_db/*.xml"].each do |file|
@@ -76,8 +91,11 @@ Dir["./full_db/*.xml"].each do |file|
 
   db = get_mongo
 
+  col = db["articles_scrap"]
+  col.remove
+
   articles.each do |article|
-    scrap_article_data(article, db)
+    scrap_article_data(article, col)
   end
 end
 
