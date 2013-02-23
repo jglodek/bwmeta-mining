@@ -29,13 +29,38 @@ def scrap_article_data(article_xml, db)
       when "name"
         article[:names] ||= []
         article[:names].push({name: c.text, lang: c["lang"]})
+      when "text"
+        next
+      when "date"
+        article[:dates] ||=[]
+        article[:dates].push({type: c["type"], text: c.text })
+      when "fulltext"
+        next
+      when "contributor"
+        article[:contributors] || []
+        contributor = {}
+        contributor[:role] = c["role"] if c["role"]
+        contributor[:title] = c["title"] if c["title"]
+        surname =  c.css("[@key='person.surname']").first
+        firstname =  c.css("[@key='person.firrstname']").first
+        contributor[:surname] = surname["value"] if surname
+        contributor[:firstname] = firstname["value"] if firstname
+      when "hierarchy"
+        element = c.css("element-ref").first
+        article[:parent] = element["ref"]
       when "attribute"
         case c["key"]
-        when "bibliographical.description"
-          article[:description] = c["value"]
-        else
-          $found[c.name + " " + c["key"]] ||= 0
-          $found[c.name + " " + c["key"]] += 1
+          when "bibliographical.description"
+            article[:description] = c["value"]
+          when "mhp.typ.form"
+            article["mht_typ_form"] = c["value"]
+          when "mhp.typ.rodz"
+            article["mht_typ_rodz"] = c["value"]
+          when "title.nonexplicit"
+            puts c
+          else
+            $found[c.name + " " + c["key"]] ||= 0
+            $found[c.name + " " + c["key"]] += 1
         end
       else
         $found[c.name] ||= 0
