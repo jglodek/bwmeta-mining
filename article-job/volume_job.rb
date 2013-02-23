@@ -36,7 +36,7 @@ def scrap_volume_data(volume_xml, col)
         volume[:notes] ||=[]
         volume[:notes].push({name: c.text, lang: c["lang"]})
      when "contributor"
-        volume[:contributors] || []
+        volume[:contributors] ||= []
         contributor = {}
         contributor[:role] = c["role"] if c["role"]
         contributor[:title] = c["title"] if c["title"]
@@ -44,7 +44,7 @@ def scrap_volume_data(volume_xml, col)
         firstname =  c.css("[@key='person.firrstname']").first
         contributor[:surname] = surname["value"] if surname
         contributor[:firstname] = firstname["value"] if firstname
-        volume[:contributor].push contributor
+        volume[:contributors].push contributor
       when "hierarchy"
         element = c.css("element-ref").first
         volume[:parent] = element["ref"]
@@ -56,15 +56,15 @@ def scrap_volume_data(volume_xml, col)
   col.insert volume
 end
 
+db = get_mongo
+
+col = db["volumes_scrap"]
+col.remove
 Dir["./full_db/*.xml"].each do |file|
   xml_file = open(file)
 
   volumes = get_volumes_from_xml(xml_file.read)
 
-  db = get_mongo
-
-  col = db["volumes_scrap"]
-  col.remove
   volumes.each do |volume|
     scrap_volume_data(volume, col)
   end

@@ -69,15 +69,16 @@ def scrap_journal_data(journal_xml, col)
   col.insert journal
 end
 
+db = get_mongo
+
+col = db["journals_scrap"]
+col.remove
+
 Dir["./full_db/*.xml"].each do |file|
   xml_file = open(file)
 
   journals = get_journals_from_xml(xml_file.read)
 
-  db = get_mongo
-
-  col = db["journals_scrap"]
-  col.remove
 
   journals.each do |journal|
     scrap_journal_data(journal, col)

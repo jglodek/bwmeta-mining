@@ -1,6 +1,16 @@
 namespace :xml do
-  desc "read xml elements"
-  task :read_xml_elements do
-
+  desc "Scrapps whole xml"
+  task :all do
+    puts "Articles..."
+    require './article_job'
+    puts "Journals..."
+    require './journal_job'
+    puts "Volumes..."
+    require './volume_job'
+    puts "Years..."
+    require './years_job'
+    puts "Numbers..."
+    require './numbers_job'
+    puts "Done..."
   end
 end

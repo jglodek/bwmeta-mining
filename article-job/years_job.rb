@@ -54,15 +54,14 @@ def scrap_year_data(year_xml, col)
   col.insert year
 end
 
+db = get_mongo
+
+col = db["years_scrap"]
+col.remove
 Dir["./full_db/*.xml"].each do |file|
   xml_file = open(file)
 
   years = get_years_from_xml(xml_file.read)
-
-  db = get_mongo
-
-  col = db["years_scrap"]
-  col.remove
 
   years.each do |year|
     scrap_year_data(year, col)

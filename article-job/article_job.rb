@@ -84,15 +84,15 @@ def scrap_article_data(article_xml, col)
   col.insert article
 end
 
+db = get_mongo
+
+col = db["articles_scrap"]
+col.remove
 Dir["./full_db/*.xml"].each do |file|
   xml_file = open(file)
 
   articles = get_articles_from_xml(xml_file.read)
 
-  db = get_mongo
-
-  col = db["articles_scrap"]
-  col.remove
 
   articles.each do |article|
     scrap_article_data(article, col)
