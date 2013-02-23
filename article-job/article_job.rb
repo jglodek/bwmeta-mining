@@ -34,8 +34,7 @@ def scrap_article_data(article_xml, db)
         when "bibliographical.description"
           article[:description] = c["value"]
         else
-
-          $found[c.name + " " + c["key"] ||= 0
+          $found[c.name + " " + c["key"]] ||= 0
           $found[c.name + " " + c["key"]] += 1
         end
       else
