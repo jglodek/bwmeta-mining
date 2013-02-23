@@ -24,6 +24,7 @@ Use
 2. put xml files in full_db folder
 3. configure mongodb connection data in
 4. run mongodb server 'mongod' (if not running already)
-5. run
+5. run `rake xml:all`
 
-    'rake xml:all'
+Cheers:-)
+
