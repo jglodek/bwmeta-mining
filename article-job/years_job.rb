@@ -40,7 +40,7 @@ def scrap_year_data(year_xml, col)
         contributor[:role] = c["role"] if c["role"]
         contributor[:title] = c["title"] if c["title"]
         surname =  c.css("[@key='person.surname']").first
-        firstname =  c.css("[@key='person.firrstname']").first
+        firstname =  c.css("[@key='person.firstname']").first
         contributor[:surname] = surname["value"] if surname
         contributor[:firstname] = firstname["value"] if firstname
         year[:contributors].push contributor
