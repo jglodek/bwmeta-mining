@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bwmeta xmlns="http://yadda.icm.edu.pl/bwmeta-1.0.5.xsd">
+  <element id="bwmeta1.element.dl-catalog-640f5d1e-c877-45b8-afef-ff8d902fc7fd" langs="pl">
+    <name lang="PL">2 (30)</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Number">
+      <element-ref ref="bwmeta1.element.dl-catalog-d541bc06-21ad-4095-9cc3-b7a9c9227e9f" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-35ba630a-43ca-473a-b38b-feb2f3bfaa0d" langs="pl de">
+    <name lang="PL">1</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Number">
+      <element-ref ref="bwmeta1.element.dl-catalog-9e204b7b-3764-43e6-8318-56d8ba993fce" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-9e204b7b-3764-43e6-8318-56d8ba993fce" langs="pl de">
+    <name lang="PL">5</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-e4243a15-8c5d-4cc0-9cdd-a21b7b34952d" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-fb02d42c-b882-4d83-80b8-c778269a1f7a" langs="pl">
+    <name lang="PL">2</name>
+    <name lang="PL">Sztuka Gdańska XVII wieku</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-8cfbc265-40d7-4e23-9b81-01673f1f401e" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-e4243a15-8c5d-4cc0-9cdd-a21b7b34952d" langs="pl de">
+    <name lang="PL">1972</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-3b809c3d-f008-4dda-a70c-bd77924de63e" langs="pl">
+    <name lang="PL">1994</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-b7ad274a-6ba9-4afc-a609-97bdbbeebae4" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-29c85964-0189-413c-813c-407004cdeb7c" langs="pl de">
+    <name lang="PL">1985</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-29ac3e22-0f44-4a61-be0d-b619a1985613" langs="pl de">
+    <name lang="PL">16</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-5836fff2-db68-4ed6-b799-fb6198ce4161" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-afe3638d-5ed3-4f46-bf31-a57486b82e61" langs="pl de">
+    <name lang="PL">4</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-ff404bb6-e281-4d4d-a75b-a324b11b721b" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-516020bb-ac46-4779-91fb-b8cc718491f8" langs="pl">
+    <name lang="PL">3</name>
+    <name lang="PL">Kolekcjonerstwo i muzealnictwo Gdańska</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-3b809c3d-f008-4dda-a70c-bd77924de63e" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-ee6d37ae-fe96-4c50-9063-6910470f7b06" langs="pl de">
+    <name lang="PL">7</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-699deeff-1485-409d-968b-aa9ab76c7185" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-e98bf69d-abe8-4aeb-ad28-b759484e8fbe" langs="pl">
+    <name lang="PL">7</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-a417abb9-9296-4b70-8e45-a3ee47f0799b" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-7b85e078-adcb-4624-9335-3db6ee19aaf7" langs="pl">
+    <name lang="PL">1</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-96db0979-dcdf-4798-b4b7-2ce8e0e82810" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-af9ac5c3-9203-47ac-8d95-a79193816a31" langs="pl de">
+    <name lang="PL">15</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-1dd623c6-b2eb-471e-9dad-2018538737f5" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-16ff13c8-3b6b-495f-bd3e-850ad578253e" langs="pl de">
+    <name lang="PL">2</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-29023b1a-fed7-4960-aad9-415a835af88d" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-7a09d455-f93f-402f-9767-ad858ab9771a" langs="pl de">
+    <name lang="PL">1963</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-64f6fb64-87b5-4718-acf6-61cf73ab806f" langs="pl">
+    <name lang="PL">1996</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-12903a89-069d-40b6-be0a-a09047978756" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-d3d0845c-9915-4da6-a27d-415daa166e00" langs="pl de">
+    <name lang="PL">6</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-0f04005d-0fca-4ddc-9d32-414545f40105" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-5836fff2-db68-4ed6-b799-fb6198ce4161" langs="pl de">
+    <name lang="PL">2008</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-a5fd76b5-d00a-4037-a35b-9f8d82614c51" langs="pl">
+    <name lang="PL">6</name>
+    <name lang="PL">Materiały konferencji poświęconej wystawie "Aurea Porta Rzeczypospolitej"</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-4f012e69-5b4c-4c88-94df-acebb371a0b9" />
+    </hierarchy>
+  </element>
+</bwmeta>
+

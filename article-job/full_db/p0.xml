@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bwmeta xmlns="http://yadda.icm.edu.pl/bwmeta-1.0.5.xsd">
+  <element id="bwmeta1.element.dl-catalog-f5a579c6-9fd8-4100-b6e6-cdd6b8e343cb" langs="pl de">
+    <name lang="PL">1998</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-b2b207a0-8567-49bd-8e21-c64c2d0d7eba" langs="pl de">
+    <name lang="PL">2001</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-74651e17-debf-4e67-82ca-a0db94b787fc" langs="pl de">
+    <name lang="PL">11</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-062002b4-cb68-4fbb-b250-e2c4a740c8a3" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-2606259e-f771-4c87-8851-b500bf2b5339" langs="pl de">
+    <name lang="PL">12</name>
+    <name lang="">Opolscy Żydzi 1812-1938</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-f5a579c6-9fd8-4100-b6e6-cdd6b8e343cb" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-dad9b189-3d14-4cbf-b7c5-495cab6e3370" langs="pl de">
+    <name lang="PL">13</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-b2b207a0-8567-49bd-8e21-c64c2d0d7eba" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-062002b4-cb68-4fbb-b250-e2c4a740c8a3" langs="pl de">
+    <name lang="PL">1997</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-88f906de-57e5-4580-98b4-1d186e15efa3" langs="pl de">
+    <name lang="PL">14</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-e73fba42-9168-47aa-a6fa-f767b15ac3af" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-e73fba42-9168-47aa-a6fa-f767b15ac3af" langs="pl de">
+    <name lang="PL">2002</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-29023b1a-fed7-4960-aad9-415a835af88d" langs="pl de">
+    <name lang="PL">1966</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-71a7f56d-02d2-4d91-9e93-1205337eb1f6" langs="pl de">
+    <name lang="PL">1992</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-8cfbc265-40d7-4e23-9b81-01673f1f401e" langs="pl">
+    <name lang="PL">1993</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-b7ad274a-6ba9-4afc-a609-97bdbbeebae4" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-1900ebd7-0422-4dbc-8674-e2e20d1a7ee0" langs="pl de">
+    <name lang="PL">2</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Number">
+      <element-ref ref="bwmeta1.element.dl-catalog-afe3638d-5ed3-4f46-bf31-a57486b82e61" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-4f3c0c0d-360b-4603-b6d8-5a25bc28bee9" langs="pl">
+    <name lang="PL">1956</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-a3a5fafb-01f5-49dd-82c2-3194c340512f" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-63a5d08c-ca08-4acf-ba30-259d1ff708ab" langs="pl de">
+    <name lang="PL">1</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Number">
+      <element-ref ref="bwmeta1.element.dl-catalog-afe3638d-5ed3-4f46-bf31-a57486b82e61" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-5f75db18-f56b-4be3-8aa4-38e33f499095" langs="pl">
+    <name lang="PL">4</name>
+    <name lang="PL">Koloryzm w malarstwie polskim</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-f8ce1cec-a199-4a19-81e9-0fbb078d0e76" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-71aa9062-6842-4096-8394-9f498270c6f1" langs="pl">
+    <name lang="PL">7</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-4f3c0c0d-360b-4603-b6d8-5a25bc28bee9" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-699deeff-1485-409d-968b-aa9ab76c7185" langs="pl de">
+    <name lang="PL">1982</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Year">
+      <element-ref ref="bwmeta1.element.dl-catalog-5a396b24-4966-465a-8379-d7edabc15533" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-1c90015f-60e9-4398-943b-4d951e015566">
+    <name lang="PL">10</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-b01804e6-ae27-4c07-b152-c5540f46a9a4" />
+    </hierarchy>
+    <note lang="">Spis zawartości tomów 1-9, s. 143-149.</note>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-ce4ef8e2-59e6-4784-8f6d-123942a12c5c" langs="en">
+    <name lang="EN">5</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-ee97b390-5eae-4a6b-bfc4-7b749b660a33" />
+    </hierarchy>
+  </element>
+  <element id="bwmeta1.element.dl-catalog-62a62c94-1dd8-4204-a930-b308fa412beb" langs="pl de">
+    <name lang="PL">3</name>
+    <hierarchy class="bwmeta1.hierarchy-class.hierarchy_Journal" level="bwmeta1.level.hierarchy_Journal_Volume">
+      <element-ref ref="bwmeta1.element.dl-catalog-96849115-fd90-4343-a164-caa546149591" />
+    </hierarchy>
+  </element>
+</bwmeta>
+
