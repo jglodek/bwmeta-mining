@@ -18,29 +18,31 @@ def get_articles_from_xml(xml_string)
 end
 
 
-def scrap_article_data(article)
+def scrap_article_data(article_xml, db)
+  article = {}
+  article[:legacy_id] = article_xml["id"]
 
-end
+  article_xml.children.each do |c|
 
-article_child = {}
-
-def process_child(node, parent_hash)
-  parent_hash[node.name] ||= {}
-  parent_hash[node.name]["count"]||=0
-  parent_hash[node.name]["count"]+=1
-  node.children.each do |child|
-    process_child(child, parent_hash[node.name])
   end
+  puts article
 end
+
+plik = 0
+plikow = Dir["./full_db/*.xml"].length
 
 Dir["./full_db/*.xml"].each do |file|
+  plik+=1
+  puts "plik #{plik}/#{plikow}" if plik%10==0
+
   xml_file = open(file)
+
   articles = get_articles_from_xml(xml_file.read)
+
+  db = get_mongo
+
   articles.each do |article|
-    article.children.each do |c|
-      process_child(c, article_child)
-    end
-    scrap_article_data(article)
+    scrap_article_data(article, db)
   end
 end
 puts JSON.pretty_generate(article_child)
